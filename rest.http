@@ -1,0 +1,28 @@
+// Get all links
+GET http://localhost:3000/links
+
+###
+
+// Get link by short_code
+GET http://localhost:3000/links/wesleydmscn
+
+###
+
+// Redirect to original_url by link short_code
+GET http://localhost:3000/r/wesleydmscn
+
+###
+
+// Create new link
+POST http://localhost:3000/links
+Content-Type: application/json
+
+{
+  "original_url": "https://linkedin.com/in/wesleydmscn",
+  "short_code": "linkedin-wesley"
+}
+
+###
+
+// Delete link by short_code
+DELETE  http://localhost:3000/links/linkedin-wesley
