@@ -3,7 +3,7 @@
 Este projeto é uma API REST simples desenvolvida com Node.js puro, sem o uso de frameworks. A API permite gerenciar links encurtados, oferecendo endpoints para criar, listar, buscar, excluir e redirecionar links.
 
 Este projeto faz parte da postagem do meu blog:  
-[Criei uma API estilo Bit.ly com Node.js e zero dependências](https://www.wesleydmscn.com/posts/2025-05-04-criando-uma-api-rest-com-nodejs-puro)
+[Criei uma API estilo Bit.ly com Node.js e zero dependências](https://www.wesleydmscn.com/blog/2025/04/criei-uma-api-estilo-bitly-com-nodejs-puro)
 
 ## Endpoints
 
